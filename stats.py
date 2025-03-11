@@ -11,7 +11,7 @@ def get_num_words(book_text):
     # print(output)
     word_count = len(book_text.split())
     #word_count = 42 #testing number
-    return f"{word_count} words found in the document"
+    return word_count
 
 def make_dictionary(book_text):
     #dictionary = {
